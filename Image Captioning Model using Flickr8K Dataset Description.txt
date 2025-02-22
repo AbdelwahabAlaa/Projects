@@ -1,0 +1,5 @@
+This project implements an image captioning model trained on the Flickr8K dataset using TensorFlow and Keras. The model combines CNN (DenseNet201) for image feature extraction and LSTM for generating descriptive captions. 
+
+Key techniques include sequence padding, tokenization, and embedding layers. Training is optimized using ModelCheckpoint, EarlyStopping, and ReduceLROnPlateau to enhance performance.
+
+The model generates meaningful captions by learning the relationship between images and textual descriptions.

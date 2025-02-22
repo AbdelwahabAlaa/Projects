@@ -1,0 +1,9 @@
+This project presents a machine learning model that predicts academic outcomes by classifying students into three categories: Enrolled, Dropout, or Graduated. The workflow includes:
+
+Data Handling & Visualization: Utilizes NumPy and Pandas for efficient data manipulation, while Matplotlib and Seaborn aid in insightful data visualization.
+
+Preprocessing & Splitting: Implements data preprocessing steps such as one-hot encoding with scikit-learn and splitting the dataset into training and test sets.
+
+Model Building: Constructs a Sequential neural network using TensorFlow Keras, featuring dense layers and optimized with the Adamax optimizer. Early stopping is incorporated to prevent overfitting.
+
+Evaluation: The model's performance is assessed using metrics like the confusion matrix, ensuring reliable predictions.

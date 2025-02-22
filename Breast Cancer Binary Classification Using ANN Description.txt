@@ -1,0 +1,7 @@
+This Kaggle project employs an Artificial Neural Network (ANN) to classify breast cancer tumors as either malignant or benign. The workflow includes:
+
+Data Exploration & Preprocessing: Leveraging NumPy and Pandas for data manipulation, and Matplotlib and Seaborn for insightful visualizations. Data is standardized using StandardScaler and labels are encoded with LabelEncoder.
+
+Model Construction: A Sequential ANN is built using TensorFlow Keras, featuring multiple dense layers. The model is optimized with the SGD optimizer.
+
+Evaluation: The model's performance is rigorously evaluated to ensure robust and accurate predictions, contributing to the potential for early cancer detection.
